@@ -1,3 +1,58 @@
-header {
-  
+/*General*/
+* {
+  font-size: 16px;
 }
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#faculty a{
+  color: #f5a623;
+}
+
+#about a{
+  color: #f5a623;
+}
+
+#classes a{
+  color: #f5a623;
+}
+/*Header*/
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 3.875rem;
+  background-color: #000000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 3.6875rem;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  list-style-type: none;
+
+}
+
+header ul li {
+  display: inline;
+  padding-right: 3.4375rem;
+}
+
+/*main content index page*/
