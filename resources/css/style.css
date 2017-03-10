@@ -56,3 +56,49 @@ header ul li {
 }
 
 /*main content index page*/
+
+.index-banner{
+  padding-top: 3.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: image('pyt_dance_studio\resources\dancers-photo.png');
+  height: 40rem;
+  width: auto;
+}
+
+.index-banner-content{
+  display: block;
+  width: 45rem;
+  text-align: center;
+  top: 9.4375rem;
+}
+
+.index-banner-content h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: normal;
+  margin: auto;
+}
+
+.index-banner-content p{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.index-banner-button{
+  border-radius: 2px;
+  background-color: #f5a623;
+  font-family: 'Open Sans',sans-serif;
+  font-size:1.375rem;
+  font-weight: bold;
+  color: #ffffff;
+  display: inline-block;
+  padding: 1.25rem 3.125rem;
+  margin-top: 5rem;
+  margin-bottom: 3.125rem;
+}
