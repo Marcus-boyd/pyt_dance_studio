@@ -62,7 +62,7 @@ header ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: image('pyt_dance_studio\resources\dancers-photo.png');
+  background-image: url('../resources/dancers-photo.png');
   height: 40rem;
   width: auto;
 }
@@ -101,4 +101,61 @@ header ul li {
   padding: 1.25rem 3.125rem;
   margin-top: 5rem;
   margin-bottom: 3.125rem;
+}
+/*3 identical sections*/
+.main {
+  height: 31.2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 3.875rem;
+}
+.index-main-container{
+  height: 20rem;
+  width:25rem;
+  color: #ffffff;
+  display: flex;
+  font-family: 'Roboto';
+}
+#graffiti{
+  background-color: blue;
+}
+ #graffiti .index-main-container  {
+  background-color: rgba(120, 73, 225, 0.9);
+}
+#fire {
+  background-color: black;
+}
+#fire .index-main-container {
+  background-color: rgba(173, 74, 226, 0.9);
+}
+
+#sky {
+  background-color: brown;
+}
+#sky .index-main-container {
+  background-color: rgba(120, 73, 225, 0.9);
+}
+
+.index-main-content{
+  top: 5rem;
+  padding-left: 3rem;
+}
+
+.index-main-content h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+
+.index-main-content p {
+  font-size: 1.125rem;
+  line-height: 1.4
+}
+
+.index-main-content span {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: bold;
 }
