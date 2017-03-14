@@ -192,3 +192,35 @@ footer{
   font-size: 0.875rem;
   letter-spacing: 0.7px;
 }
+
+
+
+/* ABOUT.CSS */
+
+.about-banner {
+  padding-top: 3.875rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 10px solid #794ae2;
+}
+
+.about-banner-img {
+  width: 50%;
+}
+
+.about-banner-content {
+  width: 50%;
+}
+
+.about-banner-content h1 {
+  font-family: 'Roboto';
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #794ae2;
+}
+
+.about-banner-content p {
+  color: #666666;
+  font-family: 'Open Sans';
+
+}
