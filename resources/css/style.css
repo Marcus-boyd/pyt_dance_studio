@@ -180,3 +180,15 @@ footer{
   align-items: center;
   height: 3.125rem;
 }
+
+.contact {
+  height: 15rem;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Open Sans';
+  display: block;
+  font-size: 0.875rem;
+  letter-spacing: 0.7px;
+}
