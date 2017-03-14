@@ -158,7 +158,7 @@ header ul li {
 
 .index-main-content p {
   font-size: 1.125rem;
-  line-height: 1.4
+  line-height: 1.4;
 }
 
 .index-main-content span {
@@ -210,6 +210,7 @@ footer{
 
 .about-banner-content {
   width: 50%;
+  text-align: center;
 }
 
 .about-banner-content h1 {
@@ -222,5 +223,89 @@ footer{
 .about-banner-content p {
   color: #666666;
   font-family: 'Open Sans';
+}
 
+/*main section*/
+
+.dancestyles {
+  padding-top: 3.875rem;
+  display: flex;
+  align-items: center;
+  padding: 4rem 19%;
+}
+
+.dancestyles img{
+  height:9.375;
+}
+
+.dancestyle-content {
+  text-align: center;
+}
+
+.dancestyle-content h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #794ae2;
+}
+
+.dancestyle-content p {
+  font-family: 'Open Sans';
+  font-size: 1.5;
+  color: #666666
+}
+
+#ballet img {
+  margin-right: 5rem;
+}
+
+#clock img {
+  margin-left: 5rem;
+}
+
+#heart img {
+  margin-right: 5rem;
+}
+
+#tower img {
+  margin-left: 5rem;
+}
+
+/*map section*/
+
+.map {
+  padding-top: 3.875rem;
+  height: 31.25rem;
+  background-image: url('C:/Users/marcus/Documents/GitHub/pyt_dance_studio/resources/map.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.map-container {
+    height: 20rem;
+    width:25rem;
+    color: #ffffff;
+    display: flex;
+    font-family: 'Roboto';
+    background-color: rgba(120, 73, 225, 0.9);
+}
+
+.map-content{
+  top: 5rem;
+  padding-left: 3rem;
+}
+
+.map-content h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+
+.map-content p {
+  font-size: 1.125rem;
+  line-height: 1.4;
 }
