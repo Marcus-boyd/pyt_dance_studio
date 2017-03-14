@@ -1,5 +1,5 @@
 /*General*/
-* {
+html {
   font-size: 16px;
 }
 
@@ -62,7 +62,8 @@ header ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../resources/dancers-photo.png');
+  background-image: url('C:/Users/marcus/Documents/GitHub/pyt_dance_studio/resources/dancers-photo.png');
+  background-size: cover;
   height: 40rem;
   width: auto;
 }
@@ -118,20 +119,26 @@ header ul li {
   font-family: 'Roboto';
 }
 #graffiti{
-  background-color: blue;
+  background-image: url('C:/Users/marcus/Documents/GitHub/pyt_dance_studio/resources/graffiti-photo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
  #graffiti .index-main-container  {
   background-color: rgba(120, 73, 225, 0.9);
 }
 #fire {
-  background-color: black;
+  background-image: url('C:/Users/marcus/Documents/GitHub/pyt_dance_studio/resources/fire-photo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #fire .index-main-container {
   background-color: rgba(173, 74, 226, 0.9);
 }
 
 #sky {
-  background-color: brown;
+  background-image: url('C:/Users/marcus/Documents/GitHub/pyt_dance_studio/resources/jump-photo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #sky .index-main-container {
   background-color: rgba(120, 73, 225, 0.9);
@@ -158,4 +165,18 @@ header ul li {
   font-size: 1.125rem;
   line-height: 1.4;
   font-weight: bold;
+}
+
+/*footer section*/
+
+footer{
+  padding-top: 3.875;
+  height: 18.125rem;
+  background-image: url('C:/Users/marcus/Documents/GitHub/pyt_dance_studio/resources/party-photo.png');
+}
+
+.findus {
+  display: flex;
+  align-items: center;
+  height: 3.125rem;
 }
