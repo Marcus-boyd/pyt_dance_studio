@@ -364,12 +364,41 @@ footer{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 2.4rem;
+  justify-content: center;
 }
 
 .classes-container {
   width: 25rem;
   display: flex;
   align-items: center;
-  padding-left: 1.125;
-  padding-right: 1.125;
+
+}
+
+.classes-content h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color:rgba(174, 75, 227, 0.9);
+  font-family: 'Roboto';
+}
+
+.classes-content p {
+  font-family: 'Open Sans';
+  font-size: .875rem;
+  line-height: 1.7;
+  color: #000000;
+}
+
+.classes-date span {
+  font-size: 1.125rem;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: #000000;
+}
+
+.classes-date p {
+  font-family: 'Open Sans';
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000000;
 }
