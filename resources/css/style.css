@@ -255,16 +255,32 @@ footer{
   color: #666666
 }
 
+#ballet {
+  background-color: #f2f2f2;
+}
+
 #ballet img {
   margin-right: 5rem;
+}
+
+#clock {
+  background-color: #ffffff;
 }
 
 #clock img {
   margin-left: 5rem;
 }
 
+#heart {
+  background-color: #f2f2f2;
+}
+
 #heart img {
   margin-right: 5rem;
+}
+
+#tower {
+  background-color: #ffffff;
 }
 
 #tower img {
@@ -308,4 +324,52 @@ footer{
 .map-content p {
   font-size: 1.125rem;
   line-height: 1.4;
+}
+
+/*CLASSES.CSS*/
+
+.classes-banner {
+  padding-top: 3.875rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 10px solid rgba(174, 75, 227, 0.9);
+}
+
+.classes-banner-img {
+  width: 50%;
+}
+
+.classes-banner-content {
+  width: 50%;
+  text-align: center;
+}
+
+.classes-banner-content h1 {
+  font-family: 'Roboto';
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: rgba(174, 75, 227, 0.9);
+}
+
+.classes-banner-content p {
+  color: #666666;
+  font-family: 'Open Sans';
+}
+
+/*classes main section*/
+
+.classes-main {
+  padding-top: 3.875rem;
+  margin-top: 5.3125rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.classes-container {
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1.125;
+  padding-right: 1.125;
 }
