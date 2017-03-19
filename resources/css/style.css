@@ -179,11 +179,22 @@ footer{
   display: flex;
   align-items: center;
   height: 3.125rem;
+  font-family: 'Open Sans';
+  color: #ffffff;
+  font-size: 0.875rem;
+  justify-content: center;
+}
+
+.socialmedia {
+  width: 9.375rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact {
   height: 15rem;
   margin-top: 5rem;
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
   color: #ffffff;
@@ -191,6 +202,8 @@ footer{
   display: block;
   font-size: 0.875rem;
   letter-spacing: 0.7px;
+  text-align: center;
+
 }
 
 
@@ -401,4 +414,39 @@ footer{
   font-size: 1rem;
   line-height: 1.5;
   color: #000000;
+}
+
+/*FACULTY CSS*/
+
+.faculty-main {
+  padding-top: 3.875rem;
+  display: flex;
+}
+
+.faculty-container {
+  width: 16.875rem;
+  text-align: center;
+}
+
+.faculty-container img {
+  padding-bottom: 1.25rem;
+}
+
+.faculty-container h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #8a54ff;
+  font-family: 'Open Sans';
+}
+
+.faculty-container span {
+  padding-bottom: .625rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-family: 'Open Sans';
+}
+
+.faculty-container p {
+  font-family: 'Open Sans';
+
 }
