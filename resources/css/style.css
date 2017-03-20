@@ -62,7 +62,7 @@ header ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('C:/Users/marcus/Documents/GitHub/pyt_dance_studio/resources/dancers-photo.png');
+  background-image: url('resources/dancers-photo.png');
   background-size: cover;
   height: 40rem;
   width: auto;
