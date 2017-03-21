@@ -310,7 +310,7 @@ footer{
 .map {
   padding-top: 3.875rem;
   height: 31.25rem;
-  background-image: url('C:/Users/marcus/Documents/GitHub/pyt_dance_studio/resources/map.jpg');
+  background-image: url('../map.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
