@@ -172,7 +172,7 @@ header ul li {
 footer{
   padding-top: 3.875;
   height: 18.125rem;
-  background-image: url('C:/Users/marcus/Documents/GitHub/pyt_dance_studio/resources/party-photo.png');
+  background-image: url('../party-photo.png');
 }
 
 .findus {
