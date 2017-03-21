@@ -33,13 +33,17 @@ header {
   height: 3.875rem;
   background-color: #000000;
   top: 0;
+  flex-grow: 1;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  flex-grow: 1;
   padding-left: 3.6875rem;
+}
+
+header .logo {
+  flex-grow: 1;
 }
 
 .logo img {
@@ -59,6 +63,55 @@ header ul li {
   display: inline;
   padding-right: 3.4375rem;
 }
+
+/*footer section*/
+
+footer{
+  padding-top: 3.875;
+  height: 18.125rem;
+  background-image: url('../party-photo.png');
+  background-size: cover;
+}
+
+.findus {
+  display: flex;
+  height: 3.125rem;
+  font-family: 'Open Sans';
+  color: #ffffff;
+  font-size: 0.875rem;
+  justify-content: center;
+  background-color: rgba(120, 73, 225, 0.4)
+}
+
+.socialmedia {
+  width: 9.375rem;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.socialmedia i {
+  margin: auto 20px;
+}
+
+.information {
+  padding-right: 3.4;
+}
+
+.contact {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Open Sans';
+  display: block;
+  font-size: 0.875rem;
+  letter-spacing: 0.7px;
+  text-align: center;
+
+}
+
 
 /*main content index page*/
 
@@ -172,44 +225,6 @@ header ul li {
   font-weight: bold;
 }
 
-/*footer section*/
-
-footer{
-  padding-top: 3.875;
-  height: 18.125rem;
-  background-image: url('../party-photo.png');
-}
-
-.findus {
-  display: flex;
-  align-items: center;
-  height: 3.125rem;
-  font-family: 'Open Sans';
-  color: #ffffff;
-  font-size: 0.875rem;
-  justify-content: center;
-}
-
-.socialmedia {
-  width: 9.375rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.contact {
-  height: 15rem;
-  margin-top: 5rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  color: #ffffff;
-  font-family: 'Open Sans';
-  display: block;
-  font-size: 0.875rem;
-  letter-spacing: 0.7px;
-  text-align: center;
-
-}
 
 
 
