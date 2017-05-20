@@ -438,6 +438,20 @@ footer{
 
 /*FACULTY CSS*/
 
+/*facult banner*/
+.faculty-banner {
+  background-image: url('../faculty-photo.png');
+}
+
+.faculty-banner-content {
+  display: flex;
+  font-family: 'Open Sans';
+}
+.faculty-banner-content h1 {
+  font-family: 'Roboto';
+  font-size: 3.125rem;
+  font-weight: bold;
+}
 .faculty-main {
   padding-top: 3.875rem;
   display: flex;
